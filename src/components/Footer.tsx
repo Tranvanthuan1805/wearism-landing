@@ -1,5 +1,6 @@
 import React from 'react';
-import { Instagram, Twitter, Facebook, Youtube, Send, CreditCard, ShieldCheck, Truck } from 'lucide-react';
+import { Send, CreditCard, ShieldCheck, Truck } from 'lucide-react';
+import { FaInstagram, FaTwitter, FaFacebookF, FaYoutube } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
   return (
@@ -12,10 +13,10 @@ const Footer: React.FC = () => {
             Elevating your everyday style with curated collections and next-gen streetwear. Join the movement.
           </p>
           <div className="social-links">
-            <a href="#" className="social-icon"><Instagram size={20} /></a>
-            <a href="#" className="social-icon"><Twitter size={20} /></a>
-            <a href="#" className="social-icon"><Facebook size={20} /></a>
-            <a href="#" className="social-icon"><Youtube size={20} /></a>
+            <a href="#" className="social-icon"><FaInstagram size={20} /></a>
+            <a href="#" className="social-icon"><FaTwitter size={20} /></a>
+            <a href="#" className="social-icon"><FaFacebookF size={20} /></a>
+            <a href="#" className="social-icon"><FaYoutube size={20} /></a>
           </div>
         </div>
 
