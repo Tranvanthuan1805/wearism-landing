@@ -2,6 +2,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Sidebar from './components/Sidebar'
 import ProductGrid from './components/ProductGrid'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -15,9 +16,7 @@ function App() {
         </div>
       </main>
 
-      <footer className="footer container">
-        <p>&copy; 2026 wearism. Designed for style.</p>
-      </footer>
+      <Footer />
 
       <style>{`
         .app-wrapper {
